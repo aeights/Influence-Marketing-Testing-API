@@ -32,7 +32,7 @@ Route::get('/instagram/callback',[AuthController::class,'instagramCallback']);
 
 Route::get('/youtube', function () {
     $channel_username = "motogp";
-    $api_key = "AIzaSyA3Ups926TL5ZStFp-KezyNj23yJuvffmg";
+    $api_key = "AIzaSyA3Ups926TL5ZStFp";
     // $channel_id = file_get_contents('https://www.googleapis.com/youtube/v3/channels?part=id&forUsername='.$channel_username.'&key='.$api_key);
     // $api_response = file_get_contents('https://www.googleapis.com/youtube/v3/channels?part=id,statistics&id='.json_decode($channel_id,true)['items'][0]['id'].'&key='.$api_key);
     // $api_response = file_get_contents('https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=WindahBasudara&type=username&key='.$api_key);
